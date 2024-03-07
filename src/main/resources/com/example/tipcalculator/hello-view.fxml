@@ -53,5 +53,10 @@
             <Insets top="5.0" />
          </GridPane.margin>
       </TextField>
+      <Button mnemonicParsing="false" onAction="#handleCalculateButtonClicked" prefHeight="26.0" prefWidth="152.0" text="Calculate Tip" GridPane.columnIndex="1" GridPane.rowIndex="4">
+         <GridPane.margin>
+            <Insets top="5.0" />
+         </GridPane.margin>
+      </Button>
    </children>
 </GridPane>
