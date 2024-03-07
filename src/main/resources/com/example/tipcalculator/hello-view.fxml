@@ -36,7 +36,7 @@
          <GridPane.margin>
             <Insets top="5.0" />
          </GridPane.margin></Label>
-      <Slider fx:id="percentageChanger" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+      <Slider fx:id="percentageChanger" max="40.0" GridPane.columnIndex="1" GridPane.rowIndex="1" />
       <TextField fx:id="tipAmount" editable="false" GridPane.columnIndex="1" GridPane.rowIndex="2">
          <padding>
             <Insets top="5.0" />
@@ -53,10 +53,5 @@
             <Insets top="5.0" />
          </GridPane.margin>
       </TextField>
-      <Button mnemonicParsing="false" onAction="#handleCalculateButtonClicked" prefHeight="26.0" prefWidth="162.0" text="Calculate" GridPane.columnIndex="1" GridPane.rowIndex="4">
-         <GridPane.margin>
-            <Insets top="5.0" />
-         </GridPane.margin>
-      </Button>
    </children>
 </GridPane>
